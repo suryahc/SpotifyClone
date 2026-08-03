@@ -1,2 +1,4 @@
 Git Practice Repository - Version 2
-Git Practice Repository - Version 6
+Git Practice Repository - Version 2
+Git Practice Repository - Version 2
+
