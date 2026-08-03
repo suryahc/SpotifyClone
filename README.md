@@ -2,7 +2,7 @@
 
 A simple web-based music player inspired by Spotify, built with HTML, CSS, and JavaScript.
 
-## Featur
+## Features
 - Clean and responsive music player interface
 - Play/pause controls
 - Song selection from a playlist

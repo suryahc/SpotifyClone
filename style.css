@@ -2,10 +2,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    width:100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #111, #1d1d1d);
-    font-family: Arial, sans-serif;
+    background-color:wheat;
+    
 }
 nav{
     background-color: black;
@@ -14,7 +14,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 0 8%;
+    padding:0 8%;
 }
 .icons{
     display: flex;
@@ -24,24 +24,24 @@ nav{
     align-items: center;
     gap: 24%;
     margin: 0 5%;
-    transition: transform 0.3s ease-in-out;
+    transition:transform 0.3s ease-in-out;
 }
 .icons p:hover{
     transform: scale(1.1);
-    color: #ff004f;
+    color:#ff004f;
 }
 .logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 16%;
+    gap: 16%;  
 }
 .container{
     min-height: 73vh;
     background-color: black;
     width: 70%;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -50,36 +50,17 @@ nav{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
-    padding-bottom: 16px;
-}
-.container h2{
-    padding-left: 15px;
-    color: white;
-    font-family: monospace;
-    margin-bottom: 4px;
-}
-.subtitle{
-    padding-left: 15px;
-    color: #d8d8d8;
-    margin-top: 0;
 }
 .songitem{
     display: flex;
-    height: 42px;
-    background-color: white;
-    width: 26%;
-    color: black;
-    margin: 12px 23px;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 20px;
-    padding: 0 10px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.songitem:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+        height: 35px;
+        background-color: white;
+        width: 26%;
+        color: black;
+        margin: 12px 23px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 20px;
 }
 .songlistplay{
     display: flex;
@@ -96,7 +77,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
 }
 #progressbar{
     display: flex;
@@ -106,22 +86,11 @@ nav{
     width: 100%;
 }
 #progressbar input{
-    width: 68%;
+    width:68%;
     cursor: pointer;
 }
 .buttons{
     margin-top: 10px;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-}
-.buttons i{
-    color: white;
-    cursor: pointer;
-    transition: color 0.2s ease;
-}
-.buttons i:hover{
-    color: #1db954;
 }
 .songitem i{
     cursor: pointer;
@@ -130,12 +99,10 @@ nav{
     position: absolute;
     left: 245px;
     color: white;
-    display: flex;
-    align-items: center;
 }
 .songinfo img{
     opacity: 1;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 1s  ease-in-out;
 }
 #masterplay{
     cursor: pointer;
