@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fa-brands fa-3x fa-spotify" style="color:green;height:40px;width:40px"></i>
+            <h2>Spotify</h2>
+        </div>
+        <div class="icons">
+            <p>Home</p>
+            <p>About</p>
+        </div>  
+    </nav>
+    <div class="container">
+        <h2 style="padding-left:15px;color: white;font-family: monospace;">Best of NCS-No Copyright Sounds</h2>
+        <div class="songcontainer">
+            <div>
+                <div class="songitem">
+                    <img src="images/1.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/2.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/3.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/4.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/5.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/6.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/7.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/8.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+                  <div class="songitem">
+                    <img src="images/9.jpg" width="30px" height="30px" style="margin:11px;border-radius: 16px;">
+                    <span>Let me Love You</span>
+                    <span class="songlistplay"><span>5:34</span><i class="fa-solid fa-2x  fa-play-circle" style="width: 20px;
+                    height: 20px;color:black;"></i></span>
+                  </div>
+            </div>
+             
+        </div>
+        <div class="songlist"></div>
+    </div>
+        <div class="bottom">
+            <div id="progressbar">
+              <label for="clas">Progress</label>
+                <input type="range" name="range" min="0" max="100%" id="clas">
+                <div class="buttons">
+                    <i class="fa-solid fa-2x fa-step-backward" style="width: 30px;
+                    height: 30px;
+                    color:white;"></i>
+                    <i class="fa-solid fa-2x  fa-play-circle" id="masterplay"  style="width: 30px;
+                    height: 30px;
+                    color:white;" ></i>
+                    <i class="fa-solid fa-2x  fa-step-forward" style="width: 30px;
+                    height: 30px;
+                    color:white;"></i>
+                </div>
+            </div>
+            <div class="songinfo">
+                <img src="images/playing.gif" width="40px" style="padding-right: 7px;">Let me Love you Justin Bieber
+            </div>
+            
+        </div>
+        <script>
+          let masterplayButton = document.getElementById('masterplay');
+let audioElement = new Audio("songs/1.mp3");
+
+masterplayButton.addEventListener('click', () => {
+    console.log("Scripted");
+
+    if (audioElement.paused || audioElement.currentTime <= 0) {
+        audioElement.play();
+        masterplayButton.classList.toggle("fa-play-circle");
+        masterplayButton.classList.toggle("fa-pause-circle");
+    } else {
+        audioElement.pause();
+        masterplayButton.classList.toggle("fa-play-circle");
+        masterplayButton.classList.toggle("fa-pause-circle");
+    }
+});
+        </script>
+</body>
+</html>
